@@ -1,0 +1,54 @@
+.data-table-extensions-action {
+  display: none;
+}
+.data-table-extensions-filter {
+  background-color: white;
+  border-radius: 50px;
+  padding: 4px;
+}
+.filter-text {
+  border-bottom: none;
+}
+.data-table-extensions > .data-table-extensions-filter > .filter-text {
+  border-bottom: none;
+}
+.data-table-extensions-filter > .icon {
+  margin-bottom: 0;
+}
+.data-table-extensions > .data-table-extensions-filter {
+  border: 1px solid lightgray;
+  display: block;
+}
+.btn-create {
+  float: right;
+}
+.data-table-extensions > .data-table-extensions-filter > .icon {
+  height: 30px;
+}
+body {
+  background-color: rgba(228, 238, 234, 0.7);
+}
+.container-fluid {
+  --bs-gutter-x: 0;
+}
+.navbar.navbar-expand-lg.navbar-light {
+  background-color: rgba(15, 18, 27, 0.9);
+}
+.nav-link, .navbar-brand {
+  color: lightgray;
+}
+.nav-link:hover, .navbar-brand:hover {
+  color: white;
+}
+.btn-danger {
+  margin-left: 10px;
+}
+.filterText {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  line-height: 40px;
+  padding: 0 20px 0 20px;
+}
+.filterText:hover, .filterText:focus {
+  outline: none;
+}
